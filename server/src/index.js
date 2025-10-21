@@ -11,8 +11,7 @@ const DATA_DIR = path.join(__dirname, '..', 'data');
 const DATA_FILE = path.join(DATA_DIR, 'tasks.json');
 
 const app = express();
-const PORT = process.env.PORT || 5174; // avoid clashing with Vite default 5173
-
+const PORT = process.env.PORT || 5174; 
 app.use(cors());
 app.use(express.json());
 
