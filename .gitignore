@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+**/.vite
+**/.cache
+**/.parcel-cache
+**/.turbo
+**/.eslintcache
+server/data/tasks.json
